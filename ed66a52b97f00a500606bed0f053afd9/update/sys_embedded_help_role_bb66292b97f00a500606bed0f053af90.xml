@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1320315_fetch.user" name="x_1320315_fetch.user">7f66292b97f00a500606bed0f053af8e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-13 15:41:03</sys_created_on>
+        <sys_id>bb66292b97f00a500606bed0f053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7f66292b97f00a500606bed0f053af8e</sys_name>
+        <sys_package display_value="Fetch" source="x_1320315_fetch">ed66a52b97f00a500606bed0f053afd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">ed66a52b97f00a500606bed0f053afd9</sys_scope>
+        <sys_update_name>sys_embedded_help_role_bb66292b97f00a500606bed0f053af90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-13 15:41:03</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f796256b97f00a500606bed0f053af62" label="Dogs" max_length="40" name="x_1320315_fetch_dogs" type="collection">
+        <element label="Adoption Center" max_length="32" name="adoption_center" reference="x_1320315_fetch_adoption_center" type="reference"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Bio" max_length="4000" name="bio" type="string"/>
+        <element choice="1" label="Breed" max_length="40" name="breed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="German Shephared" value="german_shephared"/>
+                <element inactive_on_update="false" label="Labrador" sequence="0" value="labrador"/>
+                <element inactive_on_update="false" label="Mix" sequence="2" value="mix"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="1000" name="name" type="string"/>
+        <element label="Neutered" max_length="40" name="neutered" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Picture" max_length="40" name="picture" type="user_image"/>
+        <element label="Shots" max_length="40" name="shots" type="boolean"/>
+        <element choice="1" label="Status" max_length="1000" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Adopted" sequence="2" value="adopted"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="adoption_center"/>
+        </index>
+    </element>
+</database>

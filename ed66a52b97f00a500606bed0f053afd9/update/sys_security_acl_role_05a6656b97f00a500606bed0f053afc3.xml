@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-13 15:41:57</sys_created_on>
+        <sys_id>05a6656b97f00a500606bed0f053afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1320315_fetch_dogs.x_1320315_fetch.user</sys_name>
+        <sys_package display_value="Fetch" source="x_1320315_fetch">ed66a52b97f00a500606bed0f053afd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">ed66a52b97f00a500606bed0f053afd9</sys_scope>
+        <sys_security_acl display_value="x_1320315_fetch_dogs">89a629e797f00a500606bed0f053af32</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_05a6656b97f00a500606bed0f053afc3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-13 15:41:57</sys_updated_on>
+        <sys_user_role display_value="x_1320315_fetch.user" name="x_1320315_fetch.user">7f66292b97f00a500606bed0f053af8e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
